@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert KULE | Projets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/projects.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="home.html" class="logo">RK</a>
+            <div class="nav-elements">
+                <ul>
+                    <li><a href="about.html" data-text="À propos">À propos</a></li>
+                    <li><a href="skills.html" data-text="Compétences">Compétences</a></li>
+                    <li><a href="projects.html" data-text="Projets" class="active">Projets</a></li>
+                    <li><a href="events.html" data-text="Événements">Événements</a></li>
+                    <li><a href="contact.html" data-text="Contact">Contact</a></li>
+                </ul>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="projects-hero">
+            <div class="container">
+                <h1 class="reveal-text">Mes Projets</h1>
+                <p class="section-intro fade-in">Découvrez une sélection de mes projets les plus significatifs, démontrant mes compétences en développement web et en électronique.</p>
+                
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="electronics">Électronique</button>
+                    <button class="filter-btn" data-filter="other">Autres</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="../images/project1.jpg" alt="Portfolio Personnel">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/RobertKule/portfolio" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Personnel</h3>
+                            <p>Un site web moderne et responsive présentant mon parcours professionnel et mes réalisations.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="../images/project2.jpg" alt="Pichanyepesi">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/RobertKule/pichanyepesi" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Pichanyepesi</h3>
+                            <p>Application de compression d'images utilisant des algorithmes hybrides pour une compression efficace sans perte significative de qualité.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>NumPy</span>
+                                <span>scikit-learn</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Additional Projects -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="../images/background.jpg" alt="Projet Web">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Application Web React</h3>
+                            <p>Une application web moderne développée avec React et Node.js, intégrant une base de données MongoDB.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card" data-category="other">
+                        <div class="project-image">
+                            <img src="../images/bg.jpg" alt="Analyse de Données">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Analyse de Données</h3>
+                            <p>Un projet d'analyse de données utilisant Python pour extraire des insights à partir de grands ensembles de données.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Matplotlib</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="github-activity">
+            <div class="container">
+                <h2 class="reveal-text">Activité GitHub</h2>
+                <div class="github-calendar">
+                    <!-- GitHub activity calendar will be injected here -->
+                </div>
+                <div class="github-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>Contributions</h3>
+                        <span class="stat-number">500+</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Stars</h3>
+                        <span class="stat-number">50+</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Repositories</h3>
+                        <span class="stat-number">20+</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>À propos</h3>
+                    <p>Développeur Full Stack & Ingénieur en Informatique passionné par la création de solutions innovantes et la compression de données.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/RobertKule/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="[Lien LinkedIn]" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="[Lien YouTube]" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> kulewakangitsirobert@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +243973822439</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Goma, Nord-Kivu, RDC</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="events.html">Événements</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Robert KULE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/projects.js"></script>
+</body>
+</html> 

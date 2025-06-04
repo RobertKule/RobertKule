@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert KULE | Événements</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/events.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="home.html" class="logo">RK</a>
+            <div class="nav-elements">
+                <ul>
+                    <li><a href="about.html" data-text="À propos">À propos</a></li>
+                    <li><a href="skills.html" data-text="Compétences">Compétences</a></li>
+                    <li><a href="projects.html" data-text="Projets">Projets</a></li>
+                    <li><a href="events.html" data-text="Événements" class="active">Événements</a></li>
+                    <li><a href="contact.html" data-text="Contact">Contact</a></li>
+                </ul>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="events-hero">
+            <div class="container">
+                <h1 class="reveal-text">Événements & Activités</h1>
+                <p class="section-intro fade-in">Découvrez mes participations aux événements, conférences et activités professionnelles.</p>
+
+                <div class="events-timeline">
+                    <!-- 2024 -->
+                    <div class="timeline-year">
+                        <h2 class="year">2024</h2>
+                        <div class="events-grid">
+                            <div class="event-card" data-tilt>
+                                <div class="event-date">Mars 2024</div>
+                                <h3>Conférence sur la Compression de Données</h3>
+                                <p>Présentation de Pichanyepesi et des techniques de compression d'images</p>
+                                <div class="event-details">
+                                    <span><i class="fas fa-map-marker-alt"></i> ULPGL, Goma</span>
+                                    <span><i class="fas fa-users"></i> 100+ participants</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2023 -->
+                    <div class="timeline-year">
+                        <h2 class="year">2023</h2>
+                        <div class="events-grid">
+                            <div class="event-card" data-tilt>
+                                <div class="event-date">Décembre 2023</div>
+                                <h3>Hackathon Innovation Tech</h3>
+                                <p>Premier prix pour le développement d'une solution de compression d'images</p>
+                                <div class="event-details">
+                                    <span><i class="fas fa-map-marker-alt"></i> Hub Innovation, Goma</span>
+                                    <span><i class="fas fa-trophy"></i> 1er Prix</span>
+                                </div>
+                            </div>
+
+                            <div class="event-card" data-tilt>
+                                <div class="event-date">Septembre 2023</div>
+                                <h3>Formation en IA et Machine Learning</h3>
+                                <p>Participation à une formation intensive sur l'IA et ses applications</p>
+                                <div class="event-details">
+                                    <span><i class="fas fa-map-marker-alt"></i> Online</span>
+                                    <span><i class="fas fa-certificate"></i> Certification obtenue</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2022 -->
+                    <div class="timeline-year">
+                        <h2 class="year">2022</h2>
+                        <div class="events-grid">
+                            <div class="event-card" data-tilt>
+                                <div class="event-date">Novembre 2022</div>
+                                <h3>Workshop Développement Web</h3>
+                                <p>Animation d'un atelier sur les technologies web modernes</p>
+                                <div class="event-details">
+                                    <span><i class="fas fa-map-marker-alt"></i> ULPGL, Goma</span>
+                                    <span><i class="fas fa-chalkboard-teacher"></i> Formateur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="upcoming-events">
+            <div class="container">
+                <h2 class="reveal-text">Prochains Événements</h2>
+                <div class="upcoming-grid">
+                    <div class="upcoming-card" data-tilt>
+                        <div class="event-date">
+                            <span class="month">AVR</span>
+                            <span class="day">15</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Workshop Intelligence Artificielle</h3>
+                            <p>Introduction aux concepts fondamentaux de l'IA</p>
+                            <div class="event-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> ULPGL, Goma</span>
+                                <span><i class="fas fa-clock"></i> 14:00 - 17:00</span>
+                            </div>
+                            <a href="#" class="btn-register">S'inscrire</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>À propos</h3>
+                    <p>Développeur Full Stack & Ingénieur en Informatique passionné par la création de solutions innovantes et la compression de données.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/RobertKule/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@kulelab" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> kulewakangitsirobert@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +243973822439</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Goma, Nord-Kivu, RDC</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="events.html">Événements</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Robert KULE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/events.js"></script>
+</body>
+</html> 

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert KULE | Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <!-- Add EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // TODO: Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
+            // Get it from: https://dashboard.emailjs.com/admin/account
+            emailjs.init('YOUR_PUBLIC_KEY');
+        })();
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="home.html" class="logo">RK</a>
+            <div class="nav-elements">
+                <ul>
+                    <li><a href="about.html" data-text="À propos">À propos</a></li>
+                    <li><a href="skills.html" data-text="Compétences">Compétences</a></li>
+                    <li><a href="projects.html" data-text="Projets">Projets</a></li>
+                    <li><a href="events.html" data-text="Événements">Événements</a></li>
+                    <li><a href="contact.html" data-text="Contact" class="active">Contact</a></li>
+                </ul>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <h1 class="reveal-text">Me Contacter</h1>
+                <p class="section-intro fade-in">N'hésitez pas à me contacter pour discuter de vos projets ou pour toute autre question.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>kulewakangitsirobert@gmail.com</p>
+                            <a href="mailto:kulewakangitsirobert@gmail.com" class="info-link">Envoyer un email</a>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Téléphone</h3>
+                            <p>+243973822439</p>
+                            <a href="tel:+243973822439" class="info-link">Appeler</a>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Localisation</h3>
+                            <p>Goma, Nord-Kivu</p>
+                            <p>République Démocratique du Congo</p>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/RobertKule/" target="_blank" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="[Lien LinkedIn]" target="_blank" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="[Lien YouTube]" target="_blank" class="social-link" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder=" " required>
+                                <label for="name">Nom complet</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder=" " required>
+                                <label for="email">Email</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder=" " required>
+                                <label for="subject">Sujet</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn" id="submitBtn">
+                                <span>Envoyer</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+
+                            <div id="successMessage" class="alert alert-success" style="display: none;">
+                                Message envoyé avec succès! Je vous répondrai bientôt.
+                            </div>
+                            <div id="errorMessage" class="alert alert-error" style="display: none;">
+                                Une erreur s'est produite. Veuillez réessayer plus tard.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-networks">
+            <div class="container">
+                <h2 class="reveal-text">Mes Réseaux Sociaux</h2>
+                <p class="section-intro fade-in">Retrouvez-moi sur les différentes plateformes sociales</p>
+                
+                <div class="social-grid">
+                    <a href="https://github.com/RobertKule/" target="_blank" class="social-card github">
+                        <div class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Découvrez mes projets open source et contributions</p>
+                        <span class="social-username">@RobertKule</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/" target="_blank" class="social-card linkedin">
+                        <div class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connectons-nous professionnellement</p>
+                        <span class="social-username">Robert KULE WA-KANGITSI</span>
+                    </a>
+
+                    <a href="https://www.youtube.com/@kulelab" target="_blank" class="social-card youtube">
+                        <div class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <h3>YouTube</h3>
+                        <p>Tutoriels et contenus techniques</p>
+                        <span class="social-username">@kulelab</span>
+                    </a>
+
+                    <a href="https://www.facebook.com/kulerobert.wakangitsi" target="_blank" class="social-card facebook">
+                        <div class="social-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <h3>Facebook</h3>
+                        <p>Actualités et partages</p>
+                        <span class="social-username">kulerobert.wakangitsi</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/benkangitsi/" target="_blank" class="social-card instagram">
+                        <div class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h3>Instagram</h3>
+                        <p>Photos et moments de vie</p>
+                        <span class="social-username">@benkangitsi</span>
+                    </a>
+
+                    <a href="https://x.com/wa_kule" target="_blank" class="social-card twitter">
+                        <div class="social-icon">
+                            <i class="fab fa-x-twitter"></i>
+                        </div>
+                        <h3>X (Twitter)</h3>
+                        <p>Actualités et pensées</p>
+                        <span class="social-username">@wa_kule</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2 class="reveal-text">Me Localiser</h2>
+                <div class="map-container">
+                    <!-- Replace with actual map embed code -->
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Carte interactive sera affichée ici</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>À propos</h3>
+                    <p>Développeur Full Stack & Ingénieur en Informatique passionné par la création de solutions innovantes et la compression de données.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/RobertKule/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="[Lien LinkedIn]" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="[Lien YouTube]" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> kulewakangitsirobert@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +243973822439</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Goma, Nord-Kivu, RDC</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="events.html">Événements</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Robert KULE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html> 
