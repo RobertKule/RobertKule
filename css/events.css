@@ -1,9 +1,10 @@
 /* Events Hero Section */
 .events-hero {
-    min-height: 100vh;
-    padding: calc(var(--spacing-xl) * 2) 0 var(--spacing-xl);
+    min-height: auto;
+    padding: var(--spacing-xl) 0;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
+    margin-bottom: var(--spacing-xl);
 }
 
 .events-hero::before {
@@ -22,12 +23,20 @@
 
 /* Timeline */
 .events-timeline {
-    margin-top: var(--spacing-xl);
+    margin: var(--spacing-xl) 0;
     position: relative;
+    padding-bottom: var(--spacing-xl);
 }
 
 .timeline-year {
     margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.timeline-year:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
 }
 
 .year {
@@ -58,6 +67,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
 }
 
 /* Event Card */
@@ -69,6 +79,9 @@
     transform-style: preserve-3d;
     perspective: 1000px;
     transition: all var(--transition-normal);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .event-card:hover {
@@ -114,10 +127,15 @@
 .upcoming-events {
     padding: var(--spacing-xl) 0;
     background: var(--surface-color);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
 }
 
 .upcoming-grid {
     margin-top: var(--spacing-xl);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
 }
 
 .upcoming-card {
@@ -129,6 +147,7 @@
     box-shadow: var(--shadow-md);
     transform-style: preserve-3d;
     perspective: 1000px;
+    height: 100%;
 }
 
 .upcoming-card .event-date {
@@ -212,6 +231,27 @@
     }
 }
 
+/* Main Content Wrapper */
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: var(--spacing-xl);
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+}
+
+/* Footer Spacing Fix */
+.footer {
+    margin-top: auto;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .events-grid {
@@ -226,6 +266,15 @@
 
     .event-meta {
         justify-content: center;
+    }
+
+    .events-hero {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .timeline-year {
+        margin-bottom: var(--spacing-lg);
+        padding-bottom: var(--spacing-md);
     }
 }
 
