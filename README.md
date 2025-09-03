@@ -1,26 +1,24 @@
 <div align="center">
 
 <!-- Header avec animation -->
-<div data-aos="zoom-in">
-  <img src="https://scontent.fgom1-1.fna.fbcdn.net/v/t39.30808-1/492083642_122101841834840700_7447497096341678463_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=IcLNw9edUnUQ7kNvwFgIQ3A&_nc_oc=AdlVWRm1G2u1fHxs_9jsEylXI7jUpaTREuyFgwkuIHEkNbYRPQwRCuWyZKw6TW2PJiM&_nc_zt=24&_nc_ht=scontent.fgom1-1.fna&_nc_gid=kobv9kcVm89HF_cmXY-WAA&oh=00_AfTODU-exyL_YTNXCU3h49unlHVpuFtAjGqI3ySbPEC25Q&oe=6894E7BF" width="200" style="border-radius:50%; border: 3px solid #2d3436; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</div>
+<img src="https://scontent.fgom1-1.fna.fbcdn.net/v/t39.30808-1/492083642_122101841834840700_7447497096341678463_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=IcLNw9edUnUQ7kNvwFgIQ3A&_nc_oc=AdlVWRm1G2u1fHxs_9jsEylXI7jUpaTREuyFgwkuIHEkNbYRPQwRCuWyZKw6TW2PJiM&_nc_zt=24&_nc_ht=scontent.fgom1-1.fna&_nc_gid=kobv9kcVm89HF_cmXY-WAA&oh=00_AfTODU-exyL_YTNXCU3h49unlHVpuFtAjGqI3ySbPEC25Q&oe=6894E7BF" width="200" style="border-radius:50%; border: 3px solid #2d3436; box-shadow: 0 4px 8px rgba(0,0,0,0.1); animation: float 4s ease-in-out infinite;">
 
-<!-- Navigation avec animation -->
-<div style="margin: 20px 0;" data-aos="fade-down">
-  <a href="#about" style="margin: 0 10px; text-decoration: none; color: #0984e3;">About</a> •
-  <a href="#projects" style="margin: 0 10px; text-decoration: none; color: #0984e3;">Projects</a> •
-  <a href="#skills" style="margin: 0 10px; text-decoration: none; color: #0984e3;">Skills</a> •
-  <a href="#portfolio" style="margin: 0 10px; text-decoration: none; color: #0984e3;">Portfolio</a> •
-  <a href="#contact" style="margin: 0 10px; text-decoration: none; color: #0984e3;">Contact</a>
+<!-- Navigation -->
+<div style="margin: 20px 0;">
+  <a href="#about" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">About</a> •
+  <a href="#projects" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Projects</a> •
+  <a href="#skills" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Skills</a> •
+  <a href="#portfolio" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Portfolio</a> •
+  <a href="#contact" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Contact</a>
 </div>
 
 <!-- Titre avec animation -->
-<h1 data-aos="fade-up" data-aos-delay="200">Hi there 👋 I'm Robert KULE WA-KANGITSI</h1>
+<h1 style="animation: pulse 2s ease-in-out infinite;">Hi there 👋 I'm Robert KULE WA-KANGITSI</h1>
 
-<h3 data-aos="fade-up" data-aos-delay="300" style="background: linear-gradient(45deg, #0984e3, #00cec9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 10px 0;">Django Backend Developer | AI Researcher | Multimedia Engineer | WordPress Developer</h3>
+<h3 style="background: linear-gradient(45deg, #0984e3, #00cec9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 10px 0; animation: gradient 5s ease infinite;">Django Backend Developer | AI Researcher | Multimedia Engineer | WordPress Developer</h3>
 
 <!-- Badge d'animation -->
-<p data-aos="zoom-in" data-aos-delay="400">
+<p style="animation: pulse 2s ease-in-out infinite;">
   <img src="https://komarev.com/ghpvc/?username=RobertKule&style=flat-square&color=blue" alt="Profile views"/>
 </p>
 
@@ -29,7 +27,7 @@
 ---
 
 <!-- About Section -->
-<div id="about" align="center" data-aos="fade-right">
+<div id="about" align="center">
 
 ### 🚀 About Me
 
@@ -39,12 +37,14 @@
 📹 YouTube Creator [@kulelab](https://youtube.com/@kulelab)  
 
 **Featured Project:**  
-<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+<div style="animation: float 4s ease-in-out infinite;">
   <a href="https://pichanyepesi.onrender.com">
     <img src="https://scontent.fgom1-1.fna.fbcdn.net/v/t39.30808-1/492083642_122101841834840700_7447497096341678463_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=IcLNw9edUnUQ7kNvwFgIQ3A&_nc_oc=AdlVWRm1G2u1fHxs_9jsEylXI7jUpaTREuyFgwkuIHEkNbYRPQwRCuWyZKw6TW2PJiM&_nc_zt=24&_nc_ht=scontent.fgom1-1.fna&_nc_gid=kobv9kcVm89HF_cmXY-WAA&oh=00_AfTODU-exyL_YTNXCU3h49unlHVpuFtAjGqI3ySbPEC25Q&oe=6894E7BF" style="display: block; margin: 0 auto; border-radius: 10px; transition: transform 0.3s ease;" width="150" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
   </a>
 </div>
-[Pichanyepesi]https://pichanyepesi.onrender.com - ML-powered image compression
+**[Pichanyepesi](https://pichanyepesi.onrender.com)** - ML-powered image compression  
+[Facebook Page](https://www.facebook.com/profile.php?id=61575221016702)
+
 </div>
 
 ---
@@ -85,8 +85,6 @@
 
 ### 🏆 Notable Projects
 
-<div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | [Pichanyepesi](https://pichanyepesi.onrender.com) | ML Image Compression | Python, TensorFlow, Django |
@@ -96,19 +94,17 @@
 
 </div>
 
-</div>
-
 ---
 
 <!-- Portfolio Section -->
-<div id="portfolio" align="center" data-aos="flip-up">
+<div id="portfolio" align="center">
 
 ### 🌟 Portfolio
 
 <div style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); padding: 20px; border-radius: 10px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <h3 style="color: #2d3436; margin-top: 0;">Discover my complete portfolio</h3>
   <p style="color: #2d3436;">Explore my projects, skills and professional journey</p>
-  <a href="https://dev-robertkule.pantheonsite.io/" target="_blank" style="display: inline-block; background: #2d3436; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 7px 14px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'">View My Portfolio</a>
+  <a href="https://dev-robertkule.pantheonsite.io/" target="_blank" style="display: inline-block; background: #2d3436; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; animation: pulse 2s ease-in-out infinite;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 7px 14px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'">View My Portfolio</a>
 </div>
 
 </div>
@@ -116,7 +112,7 @@
 ---
 
 <!-- Current Focus -->
-<div align="center" data-aos="fade-left">
+<div align="center">
 
 ### 🌱 Current Focus
 
@@ -131,7 +127,7 @@
 ---
 
 <!-- Contact Section -->
-<div id="contact" align="center" data-aos="zoom-in">
+<div id="contact" align="center">
 
 ### 📫 Safe Contact Options
 
@@ -147,23 +143,19 @@ For professional inquiries:
 <!-- Footer -->
 <div align="center" style="margin-top: 40px; padding: 20px 0; border-top: 1px solid #dfe6e9;">
   <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 10px;">
-    <a href="https://github.com/RobertKule" target="_blank" data-aos="zoom-in" data-aos-delay="100">
+    <a href="https://github.com/RobertKule" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
     </a>
-    <a href="https://youtube.com/@kulelab" target="_blank" data-aos="zoom-in" data-aos-delay="200">
+    <a href="https://youtube.com/@kulelab" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
       <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
     </a>
-    <a href="https://www.facebook.com/kulerobert.wakangitsi/" target="_blank" data-aos="zoom-in" data-aos-delay="300">
+    <a href="https://www.facebook.com/kulerobert.wakangitsi/" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
       <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
     </a>
-    <a href="https://dev-robertkule.pantheonsite.io/" target="_blank" data-aos="zoom-in" data-aos-delay="400">
+    <a href="https://dev-robertkule.pantheonsite.io/" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
       <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=about.me&logoColor=white" alt="Portfolio">
     </a>
   </div>
   
   <small style="color: #636e72;">© 2024 Robert KULE WA-KANGITSI | All Rights Reserved</small>
 </div>
-
-
-<!-- Style for AOS -->
-<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
