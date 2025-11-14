@@ -1,161 +1,247 @@
 <div align="center">
 
-<!-- Header avec animation -->
-<img src="https://scontent.fgom1-1.fna.fbcdn.net/v/t39.30808-1/492083642_122101841834840700_7447497096341678463_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=IcLNw9edUnUQ7kNvwFgIQ3A&_nc_oc=AdlVWRm1G2u1fHxs_9jsEylXI7jUpaTREuyFgwkuIHEkNbYRPQwRCuWyZKw6TW2PJiM&_nc_zt=24&_nc_ht=scontent.fgom1-1.fna&_nc_gid=kobv9kcVm89HF_cmXY-WAA&oh=00_AfTODU-exyL_YTNXCU3h49unlHVpuFtAjGqI3ySbPEC25Q&oe=6894E7BF" width="200" style="border-radius:50%; border: 3px solid #2d3436; box-shadow: 0 4px 8px rgba(0,0,0,0.1); animation: float 4s ease-in-out infinite;">
+<!-- Animated Header -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Robert+KULE+WA-KANGITSI;" />
+</h1>
 
-<!-- Navigation -->
-<div style="margin: 20px 0;">
-  <a href="#about" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">About</a> •
-  <a href="#projects" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Projects</a> •
-  <a href="#skills" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Skills</a> •
-  <a href="#portfolio" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Portfolio</a> •
-  <a href="#contact" style="margin: 0 10px; text-decoration: none; color: #0984e3; transition: all 0.3s ease;" onmouseover="this.style.color='#00cec9'; this.style.transform='translateY(-2px)';" onmouseout="this.style.color='#0984e3'; this.style.transform='translateY(0)';">Contact</a>
+<!-- Profile Photo with Hover Effect -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/401fef62-db7f-40b6-96f2-6ef55ea4db39" 
+       width="280" 
+       style="border-radius: 50%; border: 3px solid #2DCCD3; transition: transform 0.3s ease; max-width: 100%; height: auto; cursor: pointer;" 
+       onmouseover="this.style.transform='scale(1.2)'" 
+       onmouseout="this.style.transform='scale(1)'"
+       alt="Robert Kule Photo" />
 </div>
 
-<!-- Titre avec animation -->
-<h1 style="animation: pulse 2s ease-in-out infinite;">Hi there 👋 I'm Robert KULE WA-KANGITSI</h1>
+### **Full Stack Developer | AI Enthusiast | Multimedia Engineer**
 
-<h3 style="background: linear-gradient(45deg, #0984e3, #00cec9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 10px 0; animation: gradient 5s ease infinite;">Django Backend Developer | AI Researcher | Multimedia Engineer | WordPress Developer</h3>
-
-<!-- Badge d'animation -->
-<p style="animation: pulse 2s ease-in-out infinite;">
-  <img src="https://komarev.com/ghpvc/?username=RobertKule&style=flat-square&color=blue" alt="Profile views"/>
-</p>
-
+<!-- Animated Badges -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=RobertKule&style=for-the-badge&color=blue&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/RobertKule?label=Followers&style=for-the-badge&color=blue" alt="GitHub followers" />
 </div>
 
----
+<br/>
 
-<!-- About Section -->
-<div id="about" align="center">
-
-### 🚀 About Me
-
-🌍 Based in Goma, DR Congo  
-🎓 Computer Engineering Graduate @ ULPGL Goma  
-💡 Electronics repair → Software Developer journey  
-📹 YouTube Creator [@kulelab](https://youtube.com/@kulelab)  
-
-**Featured Project:**  
-<div style="animation: float 4s ease-in-out infinite;">
-  <a href="https://pichanyepesi.onrender.com">
-    <img src="https://scontent.fgom1-1.fna.fbcdn.net/v/t39.30808-1/492083642_122101841834840700_7447497096341678463_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=IcLNw9edUnUQ7kNvwFgIQ3A&_nc_oc=AdlVWRm1G2u1fHxs_9jsEylXI7jUpaTREuyFgwkuIHEkNbYRPQwRCuWyZKw6TW2PJiM&_nc_zt=24&_nc_ht=scontent.fgom1-1.fna&_nc_gid=kobv9kcVm89HF_cmXY-WAA&oh=00_AfTODU-exyL_YTNXCU3h49unlHVpuFtAjGqI3ySbPEC25Q&oe=6894E7BF" style="display: block; margin: 0 auto; border-radius: 10px; transition: transform 0.3s ease;" width="150" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+<!-- Animated Navigation -->
+<div align="center">
+  <a href="#about">
+    <img src="https://img.shields.io/badge/-About_Me-2DCCD3?style=for-the-badge&logo=person&logoColor=white" />
+  </a>
+  <a href="#skills">
+    <img src="https://img.shields.io/badge/-Skills-27AE60?style=for-the-badge&logo=tools&logoColor=white" />
+  </a>
+  <a href="#projects">
+    <img src="https://img.shields.io/badge/-Projects-E74C3C?style=for-the-badge&logo=project&logoColor=white" />
+  </a>
+  <a href="#portfolio">
+    <img src="https://img.shields.io/badge/-Portfolio-9B59B6?style=for-the-badge&logo=portfolio&logoColor=white" />
+  </a>
+  <a href="#contact">
+    <img src="https://img.shields.io/badge/-Contact-F39C12?style=for-the-badge&logo=contact&logoColor=white" />
   </a>
 </div>
-**[Pichanyepesi](https://pichanyepesi.onrender.com)** - ML-powered image compression  
-[Facebook Page](https://www.facebook.com/profile.php?id=61575221016702)
+
+</div>
+
+<br/>
+
+---
+
+## 🚀 About Me
+<div align="left">
+  
+🎯 **Quick Facts:**
+- 🌍 Based in **Goma, DR Congo**
+- 🎓 Graduate in **Computer Engineering** (ULPGL Goma)
+- 💡 **Journey**: From electronics repair to software development
+- 📹 **Content Creator**: [@kulelab](https://youtube.com/@kulelab) on YouTube
+
+🚀 **Current Focus:**
+> Building **Full Stack** applications with React/Tailwind & Python/Django while exploring **AI** and **Deep Learning** frontiers.
 
 </div>
 
 ---
 
-<!-- Skills Section -->
-<div id="skills" align="center">
-
-### 🔧 Technical Arsenal
-
-**Backend Development**  
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-**Frontend Development**  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Multimedia Production**  
-![DaVinci Resolve](https://img.shields.io/badge/DaVinci_Resolve-000000?style=for-the-badge&logo=blackmagic-design&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
-![Adobe Premiere](https://img.shields.io/badge/Adobe_Premiere-9999FF?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white)
-
-**Emerging Tech**  
-![Machine Learning](https://img.shields.io/badge/ML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![IoT](https://img.shields.io/badge/IoT-E34F26?style=for-the-badge&logo=arduino&logoColor=white)
-![AI](https://img.shields.io/badge/AI-000000?style=for-the-badge&logo=ai&logoColor=white)
-
-</div>
-
----
-
-<!-- Projects Section -->
-<div id="projects" align="center">
-
-### 🏆 Notable Projects
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [Pichanyepesi](https://pichanyepesi.onrender.com) | ML Image Compression | Python, TensorFlow, Django |
-| Solar Tracker Sim | IoT Mobile Integration | Python, Android, IoT |
-| ULPGL Mgmt System | Academic Administration | Django, PostgreSQL, HTML/CSS |
-| WordPress Sites | Various Client Websites | WordPress, PHP, Elementor |
-
-</div>
-
----
-
-<!-- Portfolio Section -->
-<div id="portfolio" align="center">
-
-### 🌟 Portfolio
-
-<div style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); padding: 20px; border-radius: 10px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <h3 style="color: #2d3436; margin-top: 0;">Discover my complete portfolio</h3>
-  <p style="color: #2d3436;">Explore my projects, skills and professional journey</p>
-  <a href="https://dev-robertkule.pantheonsite.io/" target="_blank" style="display: inline-block; background: #2d3436; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; animation: pulse 2s ease-in-out infinite;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 7px 14px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'">View My Portfolio</a>
-</div>
-
-</div>
-
----
-
-<!-- Current Focus -->
 <div align="center">
 
-### 🌱 Current Focus
+## 🔧 Technical Arsenal
 
-- Optimizing neural networks for lossless compression
-- Building Django microservices architecture
-- Creating Blender educational content
-- Developing WordPress plugins and themes
-- Exploring AI integration in web applications
+</div>
+
+<!-- Animated Skills Section -->
+<div align="center">
+
+### 💻 Web & Backend Development
+
+<!-- Backend Skills -->
+<div align="center">
+  <h4>Backend Development</h4>
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+</div>
+
+<!-- Frontend Skills -->
+<div align="center">
+  <h4>Frontend Development</h4>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+</div>
+
+<!-- CMS Skills -->
+<div align="center">
+  <h4>CMS & PHP</h4>
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+</div>
+
+### 🚀 Emerging Tech & Multimedia
+
+<!-- AI/ML Skills -->
+<div align="center">
+  <h4>Artificial Intelligence</h4>
+  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+  <img src="https://img.shields.io/badge/Deep_Learning-000000?style=for-the-badge&logo=ai&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+</div>
+
+<!-- Multimedia Skills -->
+<div align="center">
+  <h4>Multimedia & Design</h4>
+  <img src="https://img.shields.io/badge/DaVinci_Resolve-000000?style=for-the-badge&logo=blackmagic-design&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white&style=flat" 
+       onmouseover="this.style.opacity='0.8'" 
+       onmouseout="this.style.opacity='1'" />
+</div>
 
 </div>
 
 ---
 
-<!-- Contact Section -->
-<div id="contact" align="center">
+<div align="center">
 
-### 📫 Safe Contact Options
+## 🏆 Notable Projects
 
-For professional inquiries:  
-📧 [Email](mailto:kulewakangitsirobert@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/)  
-🌐 [Facebook](https://www.facebook.com/kulerobert.wakangitsi/)  
+</div>
+
+<!-- Projects Grid with Hover Effects -->
+<div align="center">
+
+| Project | Description | Tech Stack | Demo |
+| :--- | :--- | :--- | :--- |
+| **[Pichanyepesi]** 🚀 | Machine Learning-based image compression | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) | [🌐 Live Demo](https://pichanyepesi.onrender.com) |
+| **ULPGL Mgmt System** 🎓 | Academic management system (Final project) | ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | 🔒 Private |
+| **Solar Tracker Sim** ☀️ | IoT Mobile integration for solar tracking | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white) | 🔒 Private |
+| **WordPress Sites** 🌐 | Various client and freelance projects | ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) | 🔒 Client Work |
 
 </div>
 
 ---
 
-<!-- Footer -->
-<div align="center" style="margin-top: 40px; padding: 20px 0; border-top: 1px solid #dfe6e9;">
-  <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 10px;">
-    <a href="https://github.com/RobertKule" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-    </a>
-    <a href="https://youtube.com/@kulelab" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
-      <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-    </a>
-    <a href="https://www.facebook.com/kulerobert.wakangitsi/" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
-      <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
-    </a>
-    <a href="https://dev-robertkule.pantheonsite.io/" target="_blank" style="transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)';" onmouseout="this.style.transform='translateY(0)';">
-      <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=about.me&logoColor=white" alt="Portfolio">
-    </a>
-  </div>
-  
-  <small style="color: #636e72;">© 2024 Robert KULE WA-KANGITSI | All Rights Reserved</small>
+<div align="center">
+
+## 🌟 Portfolio & Contact
+
+<!-- Animated Portfolio Button -->
+<div align="center">
+  <a href="https://dev-robertkule.pantheonsite.io/" target="_blank">
+    <img src="https://img.shields.io/badge/View_My_Full_Portfolio-3498db?style=for-the-badge&logo=portfolio&logoColor=white&labelColor=2980b9&color=ffffff" 
+         style="transition: all 0.3s ease; border-radius: 10px; padding: 12px 24px;"
+         onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 5px 15px rgba(52, 152, 219, 0.4)'"
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'" />
+  </a>
+</div>
+
+<br/>
+
+### 📫 Let's Connect
+
+<!-- Contact Links with Hover Effects -->
+<div align="center">
+
+| Platform | Link | Badge |
+| :--- | :--- | :--- |
+| **Professional Email** | [kulewakangitsirobert@gmail.com](mailto:kulewakangitsirobert@gmail.com) | <a href="mailto:kulewakangitsirobert@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
+| **LinkedIn** | [Connect with me](https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/) | <a href="https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
+| **YouTube** | [@kulelab](https://youtube.com/@kulelab) | <a href="https://youtube.com/@kulelab"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
+| **GitHub** | [@RobertKule](https://github.com/RobertKule) | <a href="https://github.com/RobertKule"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
+
+</div>
+
+</div>
+
+<br/>
+
+<!-- Footer with Social Links -->
+<div align="center">
+
+## 🌐 Find Me Around the Web
+
+<p align="center">
+  <a href="https://github.com/RobertKule" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&style=flat" 
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'" />
+  </a>
+  <a href="https://youtube.com/@kulelab" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&style=flat" 
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'" />
+  </a>
+  <a href="https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat" 
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'" />
+  </a>
+  <a href="https://www.facebook.com/kulerobert.wakangitsi/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&style=flat" 
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'" />
+  </a>
+</p>
+
+<br/>
+
+<!-- GitHub Stats -->
+<div align="center">
+
+### 📊 GitHub Stats
+
+![Robert's GitHub stats](https://github-readme-stats.vercel.app/api?username=RobertKule&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RobertKule&layout=compact&theme=radical)
+
+</div>
+
+<br/>
+
+<hr/>
+
+<small>© 2024 Robert KULE WA-KANGITSI | Crafted with ❤️ and ☕</small>
+
 </div>
