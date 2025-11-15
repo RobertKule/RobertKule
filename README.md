@@ -7,7 +7,7 @@
 
 <!-- Profile Photo with Hover Effect -->
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/401fef62-db7f-40b6-96f2-6ef55ea4db39" 
+  <img src="https://github.com/user-attachments/assets/e68a4ab3-f02b-4419-88d9-d93f0e3820a1"
        width="280" 
        style="border-radius: 50%; border: 3px solid #2DCCD3; transition: transform 0.3s ease; max-width: 100%; height: auto; cursor: pointer;" 
        onmouseover="this.style.transform='scale(1.2)'" 
@@ -245,3 +245,4 @@
 <small>© 2024 Robert KULE WA-KANGITSI | Crafted with ❤️ and ☕</small>
 
 </div>
+
