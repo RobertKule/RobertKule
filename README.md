@@ -187,7 +187,16 @@
 | :--- | :--- | :--- | :--- |
 | **🎯 Pichanyepesi** | AI-powered image compression platform achieving 97.7% compression ratio | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![ML](https://img.shields.io/badge/ML-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | [🌐 Live Demo](https://pichanyepesi.onrender.com/) |
 | **🤖 MemoBot** | AI-powered assistant with LLM integration and intelligent interactions | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat&logo=chainlink&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | [🌐 Live Demo](https://memobot-frontend.vercel.app/) |
-| **🎓 SGS Platform** | Internship management system for academic institutions | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Django REST](https://img.shields.io/badge/DRF-FF1709?style=flat&logo=django&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | [🌐 Live Demo](https://sgs-roan.vercel.app/) |
+
+Management system for academic institutions
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+
+🌐 Live Demo: https://sgs-ulpgl.vercel.app/
+
 | **🏥 Afya Connect** | Health-focused web platform for digital health services | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Django REST](https://img.shields.io/badge/DRF-FF1709?style=flat&logo=django&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | [🌐 Live Demo](https://afya-connect.vercel.app/) |
 | **📚 Library System** | Complete library management application | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | [🌐 Live Demo](https://bibliotheque-frontend-mu.vercel.app/) |
 
