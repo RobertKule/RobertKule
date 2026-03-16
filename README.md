@@ -2,7 +2,7 @@
 
 <!-- Animated Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Hi+There!+👋;+I'm+Robert+KULE+WA-KANGITSI;+Full-Stack+Developer+🚀;+AI-Engineer;" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Hi+There!;+I'm+Robert+KULE+WA-KANGITSI;+Full-Stack+Developer;+AI-Engineer;" />
 </h1>
 
 <!-- Profile Photo with Hover Effect -->
