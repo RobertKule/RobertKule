@@ -17,6 +17,8 @@
 
 ### **Full-Stack Web Developer • Computer Engineer • AI Solutions Builder**
 
+[![committers.top badge](https://user-badge.committers.top/congo_kinshasa_private/RobertKule.svg)](https://user-badge.committers.top/congo_kinshasa_private/RobertKule)
+
 <!-- Animated Badges -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=RobertKule&style=for-the-badge&color=blue&label=PROFILE+VIEWS" alt="Profile views" />
