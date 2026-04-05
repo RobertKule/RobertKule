@@ -190,6 +190,9 @@
 | **🎯 Pichanyepesi** | AI-powered image compression platform achieving 97.7% compression ratio | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![ML](https://img.shields.io/badge/ML-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | [🌐 Live Demo](https://pichanyepesi.onrender.com/) |
 | **🤖 MemoBot** | AI-powered assistant with LLM integration and intelligent interactions | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat&logo=chainlink&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | [🌐 Live Demo](https://memobot-frontend.vercel.app/) |
 
+CREDDA-ULPGL
+
+
 Management system for academic institutions
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
@@ -256,7 +259,7 @@ Management system for academic institutions
 
 | Platform | Link | Badge |
 | :--- | :--- | :--- |
-| **Professional Email** | [kulewakangitsirobert@gmail.com](mailto:kulewakangitsirobert@gmail.com) | <a href="mailto:kulewakangitsirobert@gmail.com"><img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
+| **Professional Email** | [rkule880@gmail.com](mailto:kulewakangitsirobert@gmail.com) | <a href="mailto:kulewakangitsirobert@gmail.com"><img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
 | **LinkedIn** | [Professional Profile](https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/) | <a href="https://www.linkedin.com/in/robert-kule-wa-kangitsi-4a4a2a245/"><img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
 | **YouTube** | [Technical Content @kulelab](https://youtube.com/@kulelab) | <a href="https://youtube.com/@kulelab"><img src="https://img.shields.io/badge/🎬_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
 | **GitHub** | [View My Code](https://github.com/RobertKule) | <a href="https://github.com/RobertKule"><img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'" /></a> |
